@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'sans-serif', sans-serif;
+    background-image:url('baground.jpg');
+ 
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000080;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid #000080;
+    margin-bottom: 30px;
+}
+
+.payment-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-card {
+    background-color: #000080;
+    color: white;
+    width: 140px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+}    
+.payment-card:hover {
+    transform: scale(1.05);
+    background-color: #1a1aa8;
+    }
+    
+
+
+.payment-card img {
+    height: 30px;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Biar footer dorong ke bawah */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: transparent;
+}
+
+.back-button {
+    background-color: #0b0b5f;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.back-button:hover {
+    background-color: #000080;
+    transform: scale(1.05);
+}
+
+
